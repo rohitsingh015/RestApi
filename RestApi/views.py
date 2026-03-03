@@ -5,5 +5,7 @@ def home_page(request):
         'ankit',
         'rahul',
         'sonam',
+        'sarika',
+        'satyarth',
     ]
     return JsonResponse({'friends':friend})
